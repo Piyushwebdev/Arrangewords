@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Permanent+Marker&family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.client {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25vh;
+}
+.button {
+  color: black;
+  margin-top: 15px;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+.timeover {
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Permanent Marker", cursive;
+}
+.jumbleBox {
+  margin-bottom: 2vh;
+  position: relative;
+  height: 40vh;
+  width: 70vw;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 3px solid white;
+}
+
+.arrangeBox_div {
+  position: relative;
+  width: 1000px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.arrangeBox {
+  border: 1px solid grey;
+  width: 200px;
+  height: 60px;
+}
+.stringBox {
+  width: 1000px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jumble_image_div {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+}
+
+.strBox {
+  font-size: 24px;
+}
+.position {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 21px;
+  background: rgb(245, 245, 245);
+  background: radial-gradient(
+    circle,
+    rgba(245, 245, 245, 1) 18%,
+    rgba(11, 14, 14, 1) 100%
+  );
+}
+.randomBox {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  font-size: 21px;
+  padding-top: 15px;
+  text-align: center;
+  background: rgb(245, 245, 245);
+  background: radial-gradient(
+    circle,
+    rgba(245, 245, 245, 1) 18%,
+    rgba(11, 14, 14, 1) 100%
+  );
+}
+
+h1 {
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+}
